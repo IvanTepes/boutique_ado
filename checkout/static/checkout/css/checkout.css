@@ -40,6 +40,20 @@
     margin-bottom: 15px;
 }
 
+select,
+select option {
+    color: #000000;
+}
+
+select:invalid,
+select option[value=""] {
+    color: #aab7c4 !important;
+}
+
+#id_country {
+    padding-top: 7px;
+}
+
 #loading-overlay {
 	display: none;
 	position: fixed;
